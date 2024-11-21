@@ -26,18 +26,9 @@ A **Typing Tester** application built with **React**, **JavaScript**, and **CSS*
 
 ## Installation
 
-Follow these steps to set up and run the app locally:
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/typing_tester.git
-   cd typing_tester
-
-## Installation
-
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/typing_tester.git
+    git clone https://github.com/korkuthuseyin/typing_tester.git
     cd typing_tester
     ```
 
