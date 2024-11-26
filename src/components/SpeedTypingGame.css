@@ -31,8 +31,11 @@ body{
   }
   
   #paragraph{
-    word-break: break-all;
     text-align: left;
+    white-space: pre-wrap; /* Preserve whitespace and wrap text */
+    word-wrap: break-word; /* Break lines between words */
+    overflow-wrap: break-word; /* Ensure compatibility */
+    word-break: normal; 
   }
   .section{
     border: 1px solid #ced4da;
