@@ -30,22 +30,33 @@ body{
     position: absolute;
   }
   
-  #paragraph{
+  #paragraph {
     text-align: left;
     white-space: pre-wrap; /* Preserve whitespace and wrap text */
-    word-wrap: break-word; /* Break lines between words */
-    overflow-wrap: break-word; /* Ensure compatibility */
-    word-break: normal; 
+    overflow-wrap: break-word; /* Break long words onto the next line */
+    word-break: normal; /* Prevent breaking words in the middle */
+    line-height: 1.5; /* Add space between lines for better readability */
+    margin: 0;
+    padding: 0;
+    hyphens: auto; /* Add hyphenation for long words (optional) */
   }
-  .section{
+  
+  .section {
     border: 1px solid #ced4da;
     border-radius: 5px;
     padding: 20px;
     padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Add spacing between elements */
   }
-  .section1{
+  
+  .section1 {
     border-bottom: 1px solid #ced4da;
-  }
+    padding-bottom: 10px;
+    overflow: hidden; /* Prevent overflow issues */
+  }  
+  
   span{
     font-size: 20px;
     user-select: none;

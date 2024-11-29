@@ -26,7 +26,7 @@ const SpeedTypingGame = () => {
     const [isTyping, setIsTyping] = useState(false);
     const [WPM, setWPM] = useState(0);
     const [CPM, setCPM] = useState(0);
-
+    
     const loadParagraph = () => {
         const ranIndex = Math.floor(Math.random() * paragraphs.length);
         const inputField = document.getElementsByClassName('input-field')[0];
