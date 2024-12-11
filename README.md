@@ -71,3 +71,4 @@ typing_tester/
 │   └── paragraphs.js          # Random paragraph data
 ├── package.json               # Dependencies and scripts
 └── README.md                  # Project documentation
+
